@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CodeSharingPlatformTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-28T18:04:10" hostname="Nikolozs-MacBook-Air.local" time="5.411">
+  <properties/>
+  <testcase name="start" classname="CodeSharingPlatformTest" time="5.411"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.3.RELEASE)
+
+2021-01-28 21:04:11.732  INFO 2366 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform on Nikolozs-MacBook-Air.local with PID 2366 (started by dolche in /Users/dolche/IdeaProjects/Code Sharing Platform/Code Sharing Platform/task)
+2021-01-28 21:04:11.737  INFO 2366 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+2021-01-28 21:04:13.774  INFO 2366 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2021-01-28 21:04:13.788  INFO 2366 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-28 21:04:13.789  INFO 2366 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2021-01-28 21:04:13.982  INFO 2366 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-28 21:04:13.983  INFO 2366 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2128 ms
+2021-01-28 21:04:14.548  INFO 2366 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-28 21:04:15.030  INFO 2366 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-01-28 21:04:15.151  INFO 2366 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2021-01-28 21:04:15.177  INFO 2366 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 4.107 seconds (JVM running for 5.272)
+2021-01-28 21:04:15.676  INFO 2366 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-28 21:04:15.679  INFO 2366 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-28 21:04:15.700  INFO 2366 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+?[1;31m
+Start test 2?[0m
+?[1;31m
+Start test 3?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
